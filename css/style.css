@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+:root{
+	--color-general: #6f808a;
+	--fondo-header: #5b47df;
+	--color-morado: #5b47df;
+	--color-negro: #1d2124;
+	--color-hover-morado: #705cf4;
+	--color-input: #eff4fa;
+ 	--color-letra-input:#1d2124;
+	--fondo-azul: #f5f9ff;
+}
+body{
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	color: var(--color-general);
+	line-height: 1.8;
+}
+
+h2,h3,h4,h5,h6{
+	color: var(--color-negro);
+}
+
+header{
+	background-color: var(--fondo-header);
+	padding: 20px 0;
+}
+
+#hero{
+	background-image:url("../img/bg-home.png");
+	background-position: top center;
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 7% 0 10%;
+}
+
+#hero h1{
+	font-weight: 700;
+	font-size: 54px;
+}
+
+#hero p{
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.btn-karma{
+	border: 2px solid #F2F2F2;
+	/*background-color: var(--color-morado);*/
+	background-color: transparent;
+	padding: 20px 40px;
+	border-radius: 10px;
+	font-weight: 600;
+	margin-right: 10px;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.btn-karma:hover{
+	background-color: #705cf4;
+	border-color: #705cf4;
+	color: #FFFFFF;
+}
+
+#hero .btn-dark{
+	background-color: transparent;
+}
+
+#hero .btn-dark:hover{
+	background-color: #705cf4;
+	border-color: #705cf4;
+}
+
+.section{
+	padding: 5% 0;
+}
+
+#pagos img{
+	opacity: 0.4;
+}
+
+#pagos img:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+#pagos{
+	border-bottom: 1px solid #eee;
+}
+
+.titulo{
+	font-weight: 700;
+	font-size: 45px;
+	color: var(--color-negro);
+}
+
+.subtitulos{
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.ps-3{
+	padding-left: 50px !important;
+}
+
+#solutions ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+#solutions ul a{
+	color: var(--color-general);
+	text-decoration: none;
+}
+
+.btn-karma-morado{
+	border: 2px solid #705cf4;
+	padding: 20px 40px;
+	border-radius: 10px;
+	font-weight: 600;
+	margin-right: 10px;
+	color: #fff;
+	background-color: #705cf4;
+	font-size: 14px;
+}
+
+.btn-karma-morado:hover{
+	background-color: var(--color-morado);
+	color: #fff;
+}
+
+.btn-nav{
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+	padding: 15px 30px !important;
+}
+
+.btn-nav:hover{
+	background-color: var(--color-hover-morado);
+	color: #FFFFFF !important;
+	border-color: var(--color-hover-morado);
+}
+
+
+
+/*Definiciones de reglas página "Contact"*/
+#hero-title{
+	background-image: url("../img/bg-home.png");
+	background-size: cover;
+	background-position: bottom center;
+	padding: 8% 0;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#hero-title h1{
+	font-size: 55px;
+	font-weight: 600;
+}
+
+.icon-contacto{
+	font-size: 70px;
+	background-color: #FFFFFF;
+	color: var(--color-morado);
+	box-shadow: 0px 0px 20px 7px #dddddd;
+	border-radius: 100%;
+	width: 130px;
+	height: 130px;
+	line-height: 130px;
+	text-align: center;
+}
+
+#contacto h3{
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+.formulario{
+	box-shadow: 0px 0px 30px 5px rgba(53,82,99,0.09); /*#355263*/
+	border-radius: 10px;
+	padding: 40px 25px;
+}
+
+.form-control{
+	background-color: var(--color-input);
+	border: none;
+	padding: 20px 20px;
+}
+
+.form-control::placeholder{
+	color: var(--color-letra-input);
+}
+
+#contacto .titulo{
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+footer{
+	background-image: url("../img/bg-home.png");
+	padding: 5% 0;
+	color: #FFFFFF;
+}
+
+footer h5{
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+footer a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: #CCCCCC;
+}
+
+footer ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+footer li{
+	margin-bottom: 10px;
+}
+
+#clients{
+	background-color: var(--fondo-azul);
+}
+
+.testimonial{
+	background-color: #FFFFFF;
+}
+
+
+
+
+
