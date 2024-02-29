@@ -137,13 +137,30 @@
 			<h2 class="titulo text-center">What Our Clients Say</h2>
 			<p class="subtitulos">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus quod maxime placeat facere possimus, omnis voluptas assumenda.</p>
 			
-			<div class="owl-carousel_">
+			<div class="owl-carousel">
 			
 				<article class="testimonial">
-					
+					<img src="img/team-01.png" alt="team-01" class="img-fluid">
+					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
+					<h4>Jane Smith</h4>
+				</article>
+				
+				<article class="testimonial">
+					<img src="img/team-02.png" alt="team-02" class="img-fluid">
+					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
+					<h4>Edward Klarson</h4>
+				</article>
+				
+				<article class="testimonial">
 					<img src="img/team-03.jpg" alt="team-03" class="img-fluid">
 					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
 					<h4>Jessica Robinson</h4>
+				</article>
+				
+				<article class="testimonial">
+					<img src="img/team-04.png" alt="team-04" class="img-fluid">
+					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
+					<h4>Jane Smith</h4>
 				</article>
 			
 			</div>
@@ -228,6 +245,35 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
+	
+	<script>
+	
+		$(document).ready(function(){
+			
+  		 $(".owl-carousel").owlCarousel({
+				items: 1,
+				loop: true,
+				autoplay: true,
+				smartSpeed: 800,
+				margin: 30,
+				center: true,
+				dots: true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					480: {
+						items: 2
+					},
+					992: {
+						items: 3
+					}
+				}
+			});
+			
+		});
+	
+	</script>
 	
 </body>
 </html>

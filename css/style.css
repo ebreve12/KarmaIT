@@ -236,9 +236,31 @@ footer li{
 
 .testimonial{
 	background-color: #FFFFFF;
+	padding: 20px 35px;
+	transition: all 0.5s ease-in-out;
 }
 
+.testimonial img{
+	width: 100px !important;
+	border-radius: 100%;
+	margin: auto;
+	margin-top: -80px;
+	margin-bottom: 30px;
+}
 
+.testimonial h4{
+	text-align: end;
+	font-size: 18px;
+}
+
+#clients .owl-stage-outer{
+	padding-top: 80px;
+}
+
+.testimonial:hover{
+	transform: translateY(-20px);
+	transition: all 0.5s ease-in-out;
+}
 
 
 
