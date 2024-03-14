@@ -104,7 +104,7 @@ a{
 .carousel .carousel-item {
   	height: 500px;
 }
-.carousel-item img {
+.carousel-item > img {
     position: absolute;
     object-fit:cover;
     top: 0;
@@ -112,7 +112,10 @@ a{
     min-height: 500px;
 }
 
-
+.carousel-caption img{
+	margin: auto;
+	margin-bottom: 20px;
+}
 
 
 
